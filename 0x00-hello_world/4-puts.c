@@ -1,4 +1,5 @@
-#include <stdio.h>
+#include<stdio.h>
+
 /**
  *explain Prints out print out string-Programming is like building a multilingual puzzle
  *
