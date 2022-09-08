@@ -1,14 +1,20 @@
-#include<stdio.h>
+#include<stdio>
+#include <stdio.h>
 
 /**
- *explain Prints out print out string-Programming is like building a multilingual puzzle
  *
- *Return zero if succefull
+ *  * Description: main - Prints out a string to stdout.
  *
- */
- int main(void)
+ *   * Return: 0 if success.
+ *
+ *    */
+
+int main(void)
+
 {
+
 	puts("\"Programming is like building a multilingual puzzle");
 
 	return (0);
+
 }
