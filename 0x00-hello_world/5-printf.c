@@ -3,11 +3,9 @@
 /**
  *
  * main - Prints a text
- *
- * Return: Always 0 (Success)
- *
+ * Description: using the main function  
+ * Return:o  
  */
-
 int main(void)
 
 {
