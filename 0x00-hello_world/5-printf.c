@@ -3,8 +3,7 @@
 /**
  * main - Prints a text
  *
- * Description: using the main function  
- *
+ * Description: using the main function 
  * Return:0
  */
 {
