@@ -1,9 +1,9 @@
 #include <stdio.h>
-
-/**
- * Main -prrint the string in the put function
- * Ths program print with proper grammar, but the outcome is a piece
- * Return:0
+/*
+ * main - Entry point
+ * 
+ * Return: Always 0 (Success)
+ *
  */
 int main(void)
 {
