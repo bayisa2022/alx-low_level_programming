@@ -8,7 +8,6 @@
  * if number greater zero -positive if not negative  else zero and followed by new line
  * return: 0  if  successful
  */
-
 int main(void)
 {
 	int n;
