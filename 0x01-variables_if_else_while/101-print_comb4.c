@@ -1,33 +1,40 @@
 #include <stdio.h>
-
 /**
- *main - Prints combinations of 2 pairs decimal digits using only putchar
- *
- *Description: Prints combinations of 2 pairs of 2 digits using only putchar
- *Return: 0
-*/
+ * main - print numbers from 00 to 99.
+(*
+ * Return: 0 on success
+ */
 int main(void)
 {
-	int i, j;
+	int i = '0';
+	int j = '0';
+	int k = '0';
 
-	for (i = 0; i < 100; i++)
+	while (i <= '7')
 	{
-		for (j = 0; j < 100; j++)
+		while (j <= '8')
 		{
-			if (i < j)
+			while (k <= '9')
 			{
-				putchar((i / 10) + '0');
-				putchar((i % 10) + '0');
-				putchar(' ');
-				putchar((j / 10) + '0');
-				putchar((j % 10) + '0');
-				if (i != 98 || j != 99)
+				if (i < j && j < k)
 				{
-					putchar(',');
-					putchar(' ');
+					putchar(i);
+					putchar(j);
+					putchar(k);
+					if (!(i == '7' && j == '8' && k == '9'))
+					{
+						putchar(',');
+						putchar(' ');
+					}
+
 				}
+				k++;
 			}
+			k = '0';
+			j++;
 		}
+		j = '0';
+		i++;
 	}
 	putchar('\n');
 	return (0);
