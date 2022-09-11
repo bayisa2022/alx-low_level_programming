@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <ctype.h>
 
 /**
  * main -main fuction 
@@ -10,13 +9,9 @@
 
 int main(void)
 {
-	int l = 'a';
-
-	while (l <= 'z')
-{
-	putchar(l);
-	l += 1;
-}
-	putchar('\n');
+	char c;
+	for (c="c";c<='z';c++)
+		putchar(c);
+	putchar("\n");
 	return (0);
 }
