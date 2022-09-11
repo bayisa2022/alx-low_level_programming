@@ -9,11 +9,12 @@
 
 int main(void)
 {
-	int n;
+	int n=48;
 
-	for (n='n';n <= '9';n++)
+	while  (n <= 57)
 	{
-		putchar(n);
+	putchar(n);
+	n += 1;
 	}
 	putchar("\n")
 	return 0;
