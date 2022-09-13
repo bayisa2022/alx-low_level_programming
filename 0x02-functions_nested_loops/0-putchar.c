@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 
 /**
  * main -Write a program that prints _putchar
@@ -16,6 +16,6 @@ int main (void)
         _putchar('a');                                                                                                                 
         _putchar('r');                                                                                                                  
         _putchar('\n');
-return 0;
+	return 0;
 }
 
