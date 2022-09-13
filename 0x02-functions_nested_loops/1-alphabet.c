@@ -1,14 +1,18 @@
 #include "main.h"
+
 /**
  * print_alphabet - function to print english alphabet
  * Return: 0
+ *
  */
+ 
 void print_alphabet(void)
 {
-	char c;
-	for (c = 'a'; c <= 'z'; c++)
+	char i;
+
+	for (i = 'a'; i<= 'z'; i++)
 	{
-		_putchar(c);
+		_putchar(i);
 	}
 _putchar('\n');
 }
