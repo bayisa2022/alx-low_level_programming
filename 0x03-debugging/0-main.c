@@ -14,4 +14,3 @@ positive_or_negative(j);
 
 return (0);
 }
-
