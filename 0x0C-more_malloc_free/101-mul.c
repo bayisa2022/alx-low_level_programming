@@ -3,7 +3,6 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-
 /**
  * find_len - Finds the length of a string.
  * @str: The string to be measured.
