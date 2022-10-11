@@ -1,13 +1,6 @@
-/**
- * main - check the code
- *
- * Return: Always 0.
- */
-int main(void)
-{
-    int s;
+#ifndef _0_OBJECT_LIKE_MACRO_H_
+#define _0_OBJECT_LIKE_MACRO_H_
 
-    s = 98 + SIZE;
-    printf("%d\n", s);
-    return (0);
-}
+#define SIZE 1024
+
+#endif /* _0_OBJECT_LIKE_MACRO_H_ */
